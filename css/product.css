@@ -1,0 +1,10 @@
+.main .itemImg{width:100%;}
+.main .infosTitle div.head{height:45px;background-color:#686868;color:#fdfdfd;font-family:"Vrinda";font-size:19.05px;display:inline-block;font-weight:normal;text-align:center;line-height:45px;border-right:1px solid #fff;}
+.main .infosTitle div.active,.main .infosTitle .head:hover{background-color:#464674;}
+.main .infoDetails{font-family:"Verdana";font-size:12px;color:#666;padding-bottom:30px;border-bottom:1px solid #e5e5e5;}
+.main .infoDetails h2{font-size:18px;font-weight:normal;color:#333;margin-top:35px;margin-bottom:15px;}
+.main .listInfos{margin-top:10px;font-family:"Verdana";font-size:12px;color:#666;}
+.main .listInfos li{float: left;padding-top:20px;}
+.main .listInfos li.productTitle{width:33%;}
+.main .listInfos li.code{width:31%;}
+.main .listInfos li.number,.main .listInfos li.size,.main .listInfos li.mstr{width:12%;}
