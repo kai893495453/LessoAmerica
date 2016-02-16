@@ -1,0 +1,7 @@
+.main .content .details form fieldset legend{color:#666;width:auto;font-family:"Verdana";font-size:13px;border:0;line-height:70px;margin-bottom:0px;}
+.main .content .details form fieldset .col-md-9{padding-left:15px;padding-right:0px;}
+.main .content .details form fieldset input{height:22px;border-radius:0px;}
+.main .content .details form fieldset .star{line-height:22px;color:#464674;font-family:"微软雅黑";font-size:14px;}
+.main .content .details form fieldset .btn{font-family:"微软雅黑";font-size:14px;color:#fdfdfd;width:86px;height:29px;border-radius:0px;line-height:29px;padding:0px;float: left;}
+.main .content .details form fieldset .btn-reset{background-color:#999999;margin-right:20px;}
+.main .content .details form fieldset .btn-confirm{background-color:#464674;}

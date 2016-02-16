@@ -1,0 +1,46 @@
+.header .icon{line-height:105px;}
+.header .navbar .navbar-form{margin-top:34px;margin-bottom:4px;}
+.header .navbar .searchInput{width:113px;height:19px;border:1px solid #ccc;border-radius:0px;display:inline-block;float: left;font-size:12px;}
+.header .navbar .searchBtn{border:0;outline: none;background-color:#fff;display: inline-block;float: left;}
+.header .navbar .searchBtn span{-moz-transform:scale(-1,1);-webkit-transform:scale(-1,1);-o-transform:scale(-1,1);transform:scale(-1,1);}
+.header .navbar .navbar-nav a{font-family:"Verdana";color:#020101;font-size:14px;line-height:14px;padding:9px 6px;margin-left:30px;}
+.header .navbar .navbar-nav a:hover,.header .navbar .navbar-nav a.active{color:#fff;background-color:#c40e22;}
+.navbar{margin-bottom:0px;}
+.banner .bannerImg{width:100%;}
+.footer{font-size:12px;color:#888;line-height:26px;font-family:"Verdana";}
+.footer a{font-size:12px;color:#888;line-height:26px;font-family:"Verdana";margin-left:25px;}
+.footer .col-md-12{padding:20px 0px;border-top:1px solid #e3e3e3;margin:0px 15px;}
+
+/*子页面*/
+.main{padding-top:20px;padding-bottom:70px;}
+.main .menu dt{background-color:#464674;color:#fdfdfd;font-size:24px;font-family:"Vrinda";height:78px;line-height:24px;padding:20px 22px;margin-bottom:4px;}
+.main .menu dt .divider{width:26px;height:1px;background-color:#fff;opacity:0.5;margin-top:12px;}
+.main .menu .aLink{background-color:#e7e7e7;border-bottom:1px solid #fff;border-top:1px solid #dbdbdb;font-family:"Verdana";font-size:14px;}
+.main .menu .aLink a{color:#666;display:block;padding:13px 20px 12px;}
+.main .menu .aLink span{display: inline-block;width:18px;height:18px;border-radius:20px;font-family:"新宋体";font-size:14px;border:1px solid #a8a8a8;line-height:14px;text-align:right;padding-top:1px;padding-right:1px;float: right;}
+.main .menu .aLink:hover,.main .menu .aLink.active{background-color:#c40e22;font-size:14px;}
+.main .menu .aLink:hover a,.main .menu .aLink.active a{color:#fdfdfd;}
+.main .menu .aLink:hover span,.main .menu .aLink.active span{border:1px solid #e0818b;}
+.main .menu .lastItem{background-color:#e7e7e7;padding:22px 10px 35px 12px;font-family:"Vrinda";color:#666;}
+.main .menu .lastItem .f12{color:#999;}
+.main .menu .lastItem .f24{color:#464674;font-family:"微软雅黑";padding-bottom: 15px;}
+.main .menu .lastItem .f16{color:#464674;font-family:"微软雅黑";}
+
+.main .col-md-3{padding-right:0px;}
+.main .col-md-9{padding-left:0px;padding-right:15px;}
+/*面包屑导航*/
+.breadcrumb{background-color:#fff;text-align: right;border-bottom:1px solid #e3e3e3;padding-bottom:15px;margin-bottom:25px;}
+.breadcrumb> li + li:before {content: ">";}
+.breadcrumb li a{color:#999;font-size:12px;font-family:"Verdana";}
+.breadcrumb li a.active{color:#c40e22;}
+
+/*文章内容*/
+.main .content{margin-left:45px;font-family:"Verdana";}
+.main .content h1{font-family:"Vani";font-size:48px;color:#999;margin:0px;line-height:1;}
+.main .content .details .imgs{width:100%;margin-top:35px;}
+.main .content .author{font-size:18px;font-family:"Vani";color:#464674;padding-bottom:20px;}
+.main .content .divider{border-bottom:1px solid #e3e3e3;}
+.main .content .title{height:47px;line-height:47px;font-size:14px;font-family:"微软雅黑";color:#414141;}
+
+/*a标签右边的原型span标签*/
+.more span{background-color:#c30d22;color:#fdfdfd;font-size:10px;font-family:"宋体";display: inline-block;width:14px;height:14px;text-align: center;line-height:14px;border-radius:20px;margin-left:5px;}
