@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2016-04-15 15:55:44
+<?php /* Smarty version 3.1.27, created on 2016-04-16 14:11:07
          compiled from "smarty\template\LESSO_China.html" */ ?>
 <?php
-/*%%SmartyHeaderCode:2086157109e804fe407_42127099%%*/
+/*%%SmartyHeaderCode:269985711d77b301099_37511137%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,20 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1c604aadc1c29e7fc647040d013281a6f49bdd8a' => 
     array (
       0 => 'smarty\\template\\LESSO_China.html',
-      1 => 1460706870,
+      1 => 1460707291,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2086157109e804fe407_42127099',
+  'nocache_hash' => '269985711d77b301099_37511137',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_57109e8053cc14_99042385',
+  'unifunc' => 'content_5711d77b353129_01652860',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_57109e8053cc14_99042385')) {
-function content_57109e8053cc14_99042385 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5711d77b353129_01652860')) {
+function content_5711d77b353129_01652860 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '2086157109e804fe407_42127099';
+$_smarty_tpl->properties['nocache_hash'] = '269985711d77b301099_37511137';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,6 +37,9 @@ $_smarty_tpl->properties['nocache_hash'] = '2086157109e804fe407_42127099';
 <body>
 	<div class="container mAuto">
 		<?php echo $_smarty_tpl->getSubTemplate ("include/header.php", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+?>
+
+		<?php echo $_smarty_tpl->getSubTemplate ("include/banner.php", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 
 		<main class="row main">

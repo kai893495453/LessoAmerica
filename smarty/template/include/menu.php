@@ -1,8 +1,11 @@
 <dl class="menu">
-	<dt>Contact<div class="divider"></div></dt>
-	<dd class="aLink"><a href="contact.html">Contact Us<span>&lt;</span></a></dd>
-	<dd class="aLink active"><a href="carerr.html">Career<span>&lt;</span></a></dd>
-	<dd class="aLink"><a href="guestbook.html">Guestbook<span>&lt;</span></a></dd>
+	<dt>
+		{{$menuTitle['title']}}
+		<div class="divider"></div>
+	</dt>
+	{{foreach $menu as $v}}
+	<dd class="aLink {{if $v['href']==$url}}active{{/if}}"><a href="index.php?c={{$v['href']}}&id={{$v['fid']}}&currentId={{$v['id']}}">{{$v['title']}}<span>&lt;</span></a></dd>
+	{{/foreach}}
 	<dd class="lastItem">
 		<div class="f16">Contact Us</div>
 		<div class="f12">For more infomation call</div>

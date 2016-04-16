@@ -3,8 +3,8 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 2016-04-15 12:23:50
--- 服务器版本： 5.5.48
+-- Generation Time: 2016-04-16 07:05:45
+-- 服务器版本： 5.5.49
 -- PHP Version: 5.6.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -193,21 +193,21 @@ CREATE TABLE IF NOT EXISTS `nav` (
 --
 
 INSERT INTO `nav` (`id`, `title`, `href`, `fid`) VALUES
-(1, 'HOME', 'index.php', 0),
-(2, 'COMPANY PROFILE', 'LESSO_America.php', 0),
-(3, 'OUR BUSINESS', 'business.php', 0),
-(4, 'DOWNLOAD', 'download.php', 0),
-(5, 'CONTACT', 'contact.php', 0),
-(6, 'LESSO America', 'LESSO_America.php', 2),
-(7, 'China LESSO', 'LESSO_China.php', 2),
-(8, 'Global Network', 'global.php', 2),
-(9, 'Download', 'download.php', 4),
-(10, 'Contact Us', 'contact.php', 5),
-(11, 'Carerr', 'carerr.php', 5),
-(12, 'Guestbook', 'guestbook.php', 5),
-(13, 'SCH 40', '#', 3),
-(14, 'PVC DWV', '#', 3),
-(15, 'ABS DWV', '#', 3);
+(1, 'HOME', 'index', 0),
+(2, 'COMPANY PROFILE', 'LESSO_Americal', 0),
+(3, 'OUR BUSINESS', 'business', 0),
+(4, 'DOWNLOAD', 'download', 0),
+(5, 'CONTACT', 'contact', 0),
+(6, 'LESSO Americal', 'LESSO_Americal', 2),
+(7, 'China LESSO', 'LESSO_China', 2),
+(8, 'Global Network', 'global', 2),
+(9, 'Download', 'download', 4),
+(10, 'Contact Us', 'contact', 5),
+(11, 'Carerr', 'carerr', 5),
+(12, 'Guestbook', 'guestbook', 5),
+(13, 'SCH 40', 'productList', 3),
+(14, 'PVC DWV', 'productList', 3),
+(15, 'ABS DWV', 'productList', 3);
 
 -- --------------------------------------------------------
 

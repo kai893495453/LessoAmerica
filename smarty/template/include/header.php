@@ -13,7 +13,7 @@
 		<div class="cb"></div>
 		<ul class="nav navbar-nav navbar-right">
 			{{foreach $nav as $key=>$val}}
-			<li><a href="{{$val['href']}}?id={{$val['id']}}" {{if $val['href']==$url}}class="active"{{/if}}>{{$val['title']}}</a></li>
+			<li><a href="index.php?c={{$val['href']}}&id={{$val['id']}}" {{if $val['title']==$menuTitle['title']}}class="active"{{/if}}>{{$val['title']}}</a></li>
 			{{/foreach}}
 		</ul>
 	</div>

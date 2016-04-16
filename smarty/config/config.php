@@ -8,5 +8,4 @@
 	$smarty->setTemplateDir("smarty/template");
 	$smarty->setLeftDelimiter("{{");
 	$smarty->setRightDelimiter("}}");
-	include "common.fun.php";
 ?>

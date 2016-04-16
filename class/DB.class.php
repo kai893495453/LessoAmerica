@@ -31,7 +31,7 @@
 		function connect(){
 			$this->link = mysqli_connect($this->host,$this->username,$this->password);
 			if(!($this->link)){
-				showMessage("数据库连接失败");
+				$this->showMessage("数据库连接失败");
 				die;
 			}
 		}
@@ -55,7 +55,7 @@
 			while($arr = mysqli_fetch_array($d)){
 				$arrs[] = $arr;
 			}
-			return $arrs;
+			return @$arrs;
 		}
 	}
 ?>
